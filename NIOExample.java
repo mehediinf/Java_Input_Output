@@ -30,7 +30,9 @@ public class NIOExample {
      * ব্যাখ্যা:
 Import Statements:
 
-প্রথমে, java.io.IOException, java.nio.ByteBuffer, java.nio.channels.FileChannel, java.nio.file.Path, এবং java.nio.file.StandardOpenOption ইম্পোর্ট করা হয়েছে। এই ক্লাসগুলি ফাইল চ্যানেল এবং বাফার ব্যবহারের জন্য প্রয়োজন।
+প্রথমে, java.io.IOException, java.nio.ByteBuffer, java.nio.channels.FileChannel, java.nio.file.Path, এবং
+java.nio.file.StandardOpenOption ইম্পোর্ট করা হয়েছে। এই ক্লাসগুলি ফাইল চ্যানেল এবং বাফার ব্যবহারের জন্য প্রয়োজন।
+
 Main Method:
 
 public static void main(String[] args) মেথড হল প্রোগ্রামের এন্ট্রি পয়েন্ট।
