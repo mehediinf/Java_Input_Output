@@ -22,6 +22,7 @@ public class NIOExample {
                 bytesRead = fileChannel.read(buffer);
             }
             fileChannel.close();
+            
         } catch (IOException e) {
             e.printStackTrace();
         }
