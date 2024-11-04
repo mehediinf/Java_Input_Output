@@ -19,7 +19,7 @@ public class NIOExample {
                     System.out.print((char) buffer.get());
                 }
                 buffer.clear(); // Prepare buffer for writing
-                bytesRead = fileChannel.read(buffer);
+                bytesRead = fileChannel.read(buffer);  //byteRead = -1 
             }
             fileChannel.close();
             
